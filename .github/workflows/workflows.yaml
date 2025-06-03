@@ -3,7 +3,7 @@ on:
   push:
     branches: ["epilefff-branch"]
   jobs:
-    pushing-MyFisrtActions:
+    pushing-my-fisrt-actions:
       runs-on: ubuntu-latest
       steps:
         - run: echo "Code pushed to MyFirstActions repository"
