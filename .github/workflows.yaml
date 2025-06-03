@@ -1,0 +1,11 @@
+name: "Pushing MyFirstActions with GitHub Actions"
+on: 
+  push:
+    branches: ["main"]
+  jobs:
+    pushing-MyFisrtActions:
+      runs-on: ubuntu-latest
+      steps:
+        - name: pushing my project
+          run: echo "Code pushed to MyFirstActions repository"
+          run: echo "congratulations, you first action is done"
