@@ -1,11 +1,10 @@
 name: "Pushing MyFirstActions with GitHub Actions"
-on: 
+on:
   push:
     branches: ["epilefff-branch"]
   jobs:
     pushing-MyFisrtActions:
       runs-on: ubuntu-latest
       steps:
-        - name: pushing my project
-          run: echo "Code pushed to MyFirstActions repository"
-          run: echo "congratulations, you first action is done"
+        - run: echo "Code pushed to MyFirstActions repository"
+        - run: echo "congratulations, you first action is done"
